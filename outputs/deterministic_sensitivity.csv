@@ -1,0 +1,10 @@
+programme_cost_multiplier,incremental_qaly_multiplier,incremental_cost_eur,incremental_qaly,icer_eur_per_qaly,interpretation
+0.75,0.5,22.403414999999995,0.008085999999999982,2770.6424684640174,More effective and more costly; compare with justified threshold
+0.75,1.0,22.403414999999995,0.016171999999999964,1385.3212342320087,More effective and more costly; compare with justified threshold
+0.75,1.5,22.403414999999995,0.024257999999999946,923.5474894880058,More effective and more costly; compare with justified threshold
+1.0,0.5,58.65520000000001,0.008085999999999982,7253.920356171177,More effective and more costly; compare with justified threshold
+1.0,1.0,58.65520000000001,0.016171999999999964,3626.9601780855887,More effective and more costly; compare with justified threshold
+1.0,1.5,58.65520000000001,0.024257999999999946,2417.973452057059,More effective and more costly; compare with justified threshold
+1.25,0.5,94.90698500000002,0.008085999999999982,11737.198243878336,More effective and more costly; compare with justified threshold
+1.25,1.0,94.90698500000002,0.016171999999999964,5868.599121939168,More effective and more costly; compare with justified threshold
+1.25,1.5,94.90698500000002,0.024257999999999946,3912.399414626112,More effective and more costly; compare with justified threshold
