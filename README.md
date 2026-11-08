@@ -324,19 +324,22 @@ The purpose is to demonstrate how changes in implementation assumptions may infl
 A simplified budget impact model can be represented as:
 
 $$
-B = N \times U \times C + I - O
+B = (N \times U \times C) + I - (N \times U \times O_p)
 $$
 
 Where:
 
-* \(B\) = net budget impact.
-* \(N\) = eligible population.
-* \(U\) = intervention uptake proportion.
-* \(C\) = cost per participant.
-* \(I\) = implementation cost.
-* \(O\) = assumed cost offsets.
+\(B\) = net budget impact.
 
-This equation is a conceptual illustration. The exact calculations in the repository are determined by the implementation in `src/health_economics.py`.
+\(N\) = eligible population.
+\(U\) = intervention uptake proportion.
+\(C\) = annual cost per participant.
+\(I\) = implementation cost.
+\(O_p\) = assumed cost offset per participant.
+
+The calculation estimates the gross intervention expenditure, adds implementation costs, and deducts the assumed cost offsets associated with the expected number of users.
+
+In this project, the calculation is implemented in `src/health_economics.py`.
 
 In a real application, the analyst would need to define the perspective, time horizon, target population, relevant cost categories, implementation assumptions, and treatment of offsets.
 
@@ -591,8 +594,8 @@ Check the terminal for any errors or execution messages.
 ### Step 5: Run the tests
 
 ```bash
-```
 python -m unittest discover -s tests -v
+```
 
 The tests help check selected aspects of the analytical implementation.
 
