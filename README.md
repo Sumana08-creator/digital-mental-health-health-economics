@@ -508,7 +508,7 @@ The analytical workflow is organised around:
 * **Python:** Analytical logic and execution.
 * **Pandas:** Structured data handling and tabular outputs.
 * **NumPy:** Numerical computation, where required by the implementation.
-* **Pytest:** Automated testing of selected analytical functions.
+* Python unittest: Automated testing of selected analytical functions.
 * **Git:** Version control.
 * **GitHub:** Repository hosting and sharing of the project.
 
@@ -591,8 +591,8 @@ Check the terminal for any errors or execution messages.
 ### Step 5: Run the tests
 
 ```bash
-python -m pytest -v
 ```
+python -m unittest discover -s tests -v
 
 The tests help check selected aspects of the analytical implementation.
 
